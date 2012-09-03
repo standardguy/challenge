@@ -17,7 +17,6 @@ function isValidEmailAddress(emailAddress) {
 
 
 /* custom */
-
 $(function(){
 	// Flag IE
 	if($.browser.msie){
