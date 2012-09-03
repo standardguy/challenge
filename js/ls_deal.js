@@ -66,32 +66,12 @@ $(function(){
   },'a.remote[data-toggle="tab"]')
 
   
-// load up the terms and privacy data
-$("form").on({
-	click:function(){
-    url = $(this).attr('href')
-    $(".modal-body").load(url +" #content")
-  }
-},"a[data-toggle=modal]")
-
-
-
-
-
-// Support for AJAX loaded modal window.
-// Focuses on first input textbox after it loads the window.
-// $('[data-toggle="modal"]').click(function(e) {
-// e.preventDefault();
-// var href = $(this).attr('href');
-// if (href.indexOf('#') == 0) {
-// $(href).modal('open');
-// } else {
-// $.get(href, function(data) {
-// $('<div class="modal" >' + data + '</div>').modal();
-// }).success(function() { $('input:text:visible:first').focus(); });
-// }
-// });
-
+	// load up the terms and privacy data
+	$("form").on({
+		click:function(){
+	    url = $(this).attr('href')
+	    $(".modal-body").load(url +" #content")
+	  }
+	},"a[data-toggle=modal]")
 
 });
-
