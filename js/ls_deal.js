@@ -69,8 +69,9 @@ $(function(){
 	// load up the terms and privacy data
 	$("form").on({
 		click:function(){
-	    url = $(this).attr('href')
-	    $(".modal-body").load(url +" #content")
+	    var url = $(this).attr('href')
+	    var loading = "<i>Loading...</i>"
+	    $(".modal-body").append(loading).load(url +" #content")
 	  }
 	},"a[data-toggle=modal]")
 
