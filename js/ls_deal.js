@@ -61,7 +61,7 @@ $(function(){
 	  	var tab = $(this).attr("data-target")
       var loading = "<i>Loading...</i>"
 
-      $(tab).append(loading).load(href);
+      $(tab).append(loading).load(href + " #content");
   	}
   },'a.remote[data-toggle="tab"]')
 
