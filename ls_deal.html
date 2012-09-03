@@ -38,7 +38,7 @@
               <div>
                 <label for="email">enter your email address</label>
                 <input id="email" type="text" />
-                <p class="instruction">By suscribing, I agree to the <a href="terms.html#content" data-target="#terms_modal" data-toggle="modal" target="new">terms and conditions</a> and <a href="privacy.html#content" data-target="#privacy_modal" data-toggle="modal" target="new">privacy policy</a>.</p>
+                <p class="instruction">By suscribing, I agree to the <a href="terms.html#content" data-target="#gen_modal" data-toggle="modal" target="new">terms and conditions</a> and <a href="privacy.html#content" data-target="#gen_modal" data-toggle="modal" target="new">privacy policy</a>.</p>
               </div>
               <input type="submit" value="sign up" class="pull-right btn-large btn-info" />
             </form>
@@ -51,32 +51,14 @@
       </section>  
     </div>
  
-    <!-- Modals -->
-    <div id="terms_modal" class="modal hide fade">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h3>Terms and Conditions</h3>
-      </div>
-      <div class="modal-body">
-        <p>Everything you ever needed to know about Terms and Conditions...</p>
+    <!-- Modal -->
+    <div id="gen_modal" class="modal hide fade">
+      <div class="modal-body" id="remote_target">
       </div>
       <div class="modal-footer">
         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
       </div>
-    </div>
-
-    <div id="privacy_modal" class="modal hide fade">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h3>Privacy</h3>
-      </div>
-      <div class="modal-body">
-        <p>Everything you ever needed to know about the Privacy Policy...</p>
-      </div>
-      <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-      </div>
-    </div>  
+    </div> 
 
  </body>
 </html>
