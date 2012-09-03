@@ -1,7 +1,7 @@
 challenge
 =========
 
-I have posted this code at [http://standardguy.net/lsc/ls_deal.html] http://standardguy.net/lsc/ls_deal.html
+I have posted this code at http://standardguy.net/lsc/ls_deal.html
 
 Discussion
 ----------
