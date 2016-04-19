@@ -1,4 +1,4 @@
-This was my code challenge
+This was my code challenge for LivingSocial internal tools UI.  I was given a comp and told to recreate it.
 
 challenge
 =========
