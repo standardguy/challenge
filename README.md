@@ -1,7 +1,9 @@
+This was my code challenge
+
 challenge
 =========
 
-I have posted this code at http://standardguy.net/lsc/ls_deal.html
+I have posted this code at http://sleepy-tundra-7771.herokuapp.com/
 
 Discussion
 ----------
